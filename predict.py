@@ -33,7 +33,7 @@ model.setInputParams(size=(416, 416), scale=1/255, swapRB=True)
 
 
 def model_predict(path, name):
-    savePath = r'D:\YOLOv4_trash_predict\static\img'
+    savePath = r'D:\YOLOv4_trash_detect\static\img'
     os.chdir(savePath)
     cap = cv2.imread(path)
     classes, scores, boxes = model.detect(cap, Conf_threshold, NMS_threshold)
