@@ -25,3 +25,6 @@ conda install requirements.txt
 python predict.py
 ```
 ## RESULT
+![](Img/Screenshot2022-12-01013913.png)
+![](Img/Screenshot2022-12-01014207.png)
+<p align="center">Demo image</p>
