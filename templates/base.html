@@ -1,0 +1,37 @@
+{% extends "index.html" %} {% block content %}
+<div class="upload-text">
+    <h2>PHÁT HIỆN VÀ PHÂN LOẠI RÁC THẢI SỬ DỤNG MÔ HÌNH HỌC SÂU ♻️</h2>
+</div>
+
+<div id=uinf>
+    <form id="upload-file" method="post" enctype="multipart/form-data">
+        <label for="imageUpload" class="upload-label">
+            Upload...
+        </label>
+        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+    </form>
+
+    <div class="image-section" >
+        <div class="img-preview">
+            <div id="imagePreview">
+            </div>
+        </div>
+        <div>
+            <button type="button" class="btn btn-dark btn-lg predict-btn" id="btn-predict">Predict!</button>
+        </div>
+    </div>
+
+    <div class="loader" style="display:none;"></div>
+
+    <div id="result">
+    </div>
+    <div class="recycle-bin">
+        <img class="resize-bin" src="../static/img/5a1c9e35367bc6.3973185915118249492232.png" align="middle"/>
+    </div>
+    <div class="img-result">
+        <img id="img" src="" alt="">
+    </div>
+
+</div>
+
+{% endblock %}
