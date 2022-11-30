@@ -6,11 +6,11 @@ Link Paper: [Paper](https://ijarcce.com/wp-content/uploads/2022/05/IJARCCE.2022.
 
 ## DATASET
 
-DRIVE: [Link Download](https://drive.google.com/file/d/1KFt4REEXK4sRZLE21Ihw2hOXdMIcp7AZ/view?usp=sharing) 
+DRIVE: [Link Download File Weights](https://drive.google.com/file/d/1E01DtUrGSHm_auKYa2UIBy0DdSC36NhO/view?usp=sharing) 
 <img src="https://cdn-icons-png.flaticon.com/512/5968/5968523.png" width="25" height="25"/>
 
 ## HOW TO USE
-
+[Link Download File Weights](https://drive.google.com/file/d/1KFt4REEXK4sRZLE21Ihw2hOXdMIcp7AZ/view?usp=sharing)
 - Seteup environment (Using Anaconda) Downloand and Install [here](https://docs.conda.io/en/latest/miniconda.html). Then, run the commands.
 ```
 conda crate -n myenv python
